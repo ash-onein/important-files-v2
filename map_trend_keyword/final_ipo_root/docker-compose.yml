@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fastapi-ipo-app:
+    build: .
+    container_name: fastapi-ipo-app
+    ports:
+      - "8002:8002"   # FastAPI
+    volumes:
+      - .:/app   # Mount the project directory to the container
+    command: ["bash", "./setup_and_run.sh"]

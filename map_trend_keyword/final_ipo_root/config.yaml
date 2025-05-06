@@ -1,0 +1,11 @@
+api:
+  host: "0.0.0.0"
+  port: 8002
+
+data:
+  company_api_url: "https://www.goodreturns.in/src/cms_api.php?data=company-list"
+  header : {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+  cache_timeout: 3600  # Cache refresh interval in seconds (1 hour)
+
+entity_extraction:
+  xlm_net_url: "http://127.0.0.1:8080/predictions/xlm-net/1.0"

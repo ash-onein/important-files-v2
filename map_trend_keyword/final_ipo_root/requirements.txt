@@ -1,0 +1,28 @@
+fastapi
+uvicorn
+requests
+pandas
+rapidfuzz
+orjson
+pydantic
+pgeocode
+pycountry
+numpy
+black
+pyyaml
+fuzzywuzzy
+python-Levenshtein
+nltk
+transformers
+joblib
+scikit-learn
+rank_bm25
+# emoji==1.4.1
+# gevent
+# geventhttpclient==2.0.10
+# mosestokenizer==1.2.1
+# beautifulsoup4==4.10.0
+# indic-nlp-library==0.92
+# lxml_html_clean
+# jusText==2.2.0
+
